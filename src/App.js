@@ -1,20 +1,18 @@
 import React from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
-
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Services from "./pages/Services";
 import Contact from "./pages/Contact";
 import Appointment from "./pages/Appointment";
-
 import "./styles/App.css";
 
 function App() {
   return (
-    <Router>
+    <BrowserRouter basename="/medical-clinic">
       <div className="app-container">
         <Navbar />
 
@@ -30,7 +28,7 @@ function App() {
 
         <Footer />
       </div>
-    </Router>
+    </BrowserRouter>
   );
 }
 

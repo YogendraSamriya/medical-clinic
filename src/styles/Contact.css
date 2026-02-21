@@ -12,3 +12,13 @@
   margin-bottom: 10px;
   color: #444;
 }
+
+@media (max-width: 768px) {
+  .contact-section {
+    flex-direction: column;
+  }
+
+  input, textarea {
+    width: 100%;
+  }
+}
