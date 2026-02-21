@@ -43,3 +43,13 @@
 .appointment-form button:hover {
   background-color: #0056d2;
 }
+
+@media (max-width: 768px) {
+  .appointment {
+    padding: 40px 20px;
+  }
+
+  .appointment-form {
+    width: 100%;
+  }
+}

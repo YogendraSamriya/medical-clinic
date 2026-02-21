@@ -19,3 +19,9 @@ body {
   flex: 1;
   padding: 40px 8%;
 }
+
+@media (max-width: 768px) {
+  .main-content {
+    padding: 20px;
+  }
+}
