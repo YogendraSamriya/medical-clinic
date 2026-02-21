@@ -1,0 +1,21 @@
+.services {
+  padding: 60px 40px;
+}
+
+.services h1 {
+  color: #0d6efd;
+  margin-bottom: 20px;
+}
+
+.services ul {
+  list-style: none;
+  padding: 0;
+}
+
+.services li {
+  background: #f4f7fa;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 6px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.08);
+}

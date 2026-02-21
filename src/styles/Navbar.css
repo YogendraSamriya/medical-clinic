@@ -1,0 +1,75 @@
+.navbar {
+  background: linear-gradient(90deg, #0d6efd, #0056d2);
+  padding: 15px 40px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between; /* Left & Right alignment */
+  align-items: center;
+}
+
+/* Logo */
+
+.logo {
+  color: white;
+  font-size: 22px;
+  font-weight: bold;
+  text-decoration: none;   /* Remove underline */
+  letter-spacing: 1px;
+  transition: 0.3s;
+}
+
+.logo:hover {
+  color: #ffd700;
+}
+
+/* Right side links */
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  margin-left: 25px;
+  font-size: 16px;
+  font-weight: 500;
+  transition: 0.3s ease;
+  position: relative;
+}
+
+/* Hover effect */
+.nav-links a:hover {
+  color: #ffd700;
+}
+
+/* Underline animation */
+.nav-links a::after {
+  content: "";
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  bottom: -5px;
+  left: 0;
+  background-color: #ffd700;
+  transition: 0.3s;
+}
+
+.nav-links a:hover::after {
+  width: 100%;
+}
+
+/* Appointment Button */
+
+.appointment-btn {
+  background-color: #ffd700;
+  color: #000 !important;
+  padding: 8px 18px;
+  border-radius: 25px;
+  margin-left: 25px;
+  font-weight: bold;
+  transition: 0.3s ease;
+}
+
+.appointment-btn:hover {
+  background-color: white;
+  color: #0d6efd !important;
+}
