@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/medical-clinic/static/css/main.743bf308.css",
-    "main.js": "/medical-clinic/static/js/main.f298e81d.js",
+    "main.js": "/medical-clinic/static/js/main.97701a22.js",
     "index.html": "/medical-clinic/index.html",
     "main.743bf308.css.map": "/medical-clinic/static/css/main.743bf308.css.map",
-    "main.f298e81d.js.map": "/medical-clinic/static/js/main.f298e81d.js.map"
+    "main.97701a22.js.map": "/medical-clinic/static/js/main.97701a22.js.map"
   },
   "entrypoints": [
     "static/css/main.743bf308.css",
-    "static/js/main.f298e81d.js"
+    "static/js/main.97701a22.js"
   ]
 }
